@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+body { background: #020617; color: white; overflow-x: hidden; }
+.glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+.gradient-text { background: linear-gradient(90deg, #ff3b5c, #ff8a5c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.safe-gradient { background: linear-gradient(135deg, #14b8a6, #06b6d4); }
+.danger-gradient { background: linear-gradient(135deg, #ff3b5c, #ff6b35); }
+.moderate-gradient { background: linear-gradient(135deg, #f59e0b, #f97316); }
+.pulse-ring { animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }
+@keyframes pulse-ring { 0% { transform: scale(0.8); opacity: 1; } 100% { transform: scale(2); opacity: 0; } }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

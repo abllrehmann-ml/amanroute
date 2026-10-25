@@ -1,0 +1,19 @@
+AMAROUTE - DEPLOY IN 3 MINS
+---------------------------
+1. GitHub:
+   cd amanroute
+   git init && git add . && git commit -m "AmanRoute Genesis"
+   gh repo create amanroute --public --source=. --push
+   (or manually create repo and push)
+
+2. Vercel (easiest):
+   Go to vercel.com/new → Import GitHub repo → Deploy → Done
+   Your URL: https://amanroute.vercel.app
+
+3. Submit to CSS IBA:
+   - GitHub link
+   - Vercel live link
+   - 90-sec demo video (screen record from live preview)
+   - Mention: Built with roadmap.sh + Gemini AI
+
+NEED HELP? Ask for Gemini API key setup or video script.
